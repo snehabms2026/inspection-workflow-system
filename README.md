@@ -30,5 +30,20 @@ GET /api/inspections
 - Service Layer → Business logic & validation
 - Repository Layer → Database operations
 
+inspection-workflow-system/
+ ├── src/main/java/com/example/demo/
+ │     ├── controller/
+ │     ├── service/
+ │     ├── model/
+ │     ├── repository/
+ │     └── Application.java
+ │
+ ├── src/main/resources/
+ │     └── application.properties
+ │
+ ├── pom.xml
+ └── README.md
+
+ 
 ## Status
 Core backend structure implemented
